@@ -13,3 +13,71 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+
+body {
+    background-color: blue;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+header, footer {
+    height: 20%;
+    background-color: chocolate;
+}
+
+main {
+    height: 80%;
+    background-color: chartreuse;
+}
+
+header img {
+    margin: 20px;
+}
+
+main img {
+    width: 400px;
+}
+
+footer img {
+    border: 1px solid black;
+}
+
+header nav, ul {
+    display: flex;
+}
+
+header nav {
+    padding-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header, footer li {
+    list-style-type: none;
+}
+
+div > h1 {
+    font-size: 50px;
+    background-color: darkgreen;
+}
+
+ul > li {
+    border: 1px dashed black;
+}
+
+p ~ h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img + ul {
+    color: yellow;
+    list-style-type: circle;
+}
