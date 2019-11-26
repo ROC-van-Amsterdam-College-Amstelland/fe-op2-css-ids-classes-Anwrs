@@ -1,2 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
 
+header {
+    background-color: rebeccapurple;
+    border: 3px solid black;
+    height: 45%;
+    width: 100%;
+}
 
+main {
+    background-color: rosybrown;
+    border: 3px solid black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: sandybrown;
+    border: 3px solid black;
+    height: 45%;
+    width: 100%;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header  ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header  li {
+    margin-left: 20px;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border: 5px dashed rebeccapurple;
+}
+
+footer nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer  ul {
+    border: 10px dotted white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer  li {
+    margin-left: 20px;
+    color: pink;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: palegreen;
+}
